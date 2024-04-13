@@ -1,0 +1,4 @@
+[{
+        "command":"[ ! -s input ] && exit 1; jfscan  --nmap  --nmap-options='-sV' --top-ports 1000 --only-ips  --max-rate 5000 --wait 20  --enable-ipv6  --targets input  -o output",
+        "ext":"txt"
+}]

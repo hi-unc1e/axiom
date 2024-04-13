@@ -1,4 +1,4 @@
 [{
-	"command":"/home/op/.local/bin/s3scanner scan -f input | tee output",
-	"ext":"txt"
+        "command":"/home/op/.local/bin/s3scanner -t 16 scan -f input | tee output",
+        "ext":"txt"
 }]

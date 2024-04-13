@@ -1,0 +1,4 @@
+[{
+        "command":"[ ! -s input ] && exit 1;  /home/op/bin/xscan -url-file input -config /home/op/bin/config.yaml  -output-md output",
+        "ext":"txt"
+}]
